@@ -36,5 +36,23 @@ namespace Tioneel
         {
 
         }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+            txtPassword.Focus();
+            if (txtUsername.Text == "admin" && txtPassword.Text == "admin")
+            {
+                new Dashboard().Show();
+                this.Hide();
+            }
+
+            else
+            {
+                MessageBox.Show("The User name or password you entered is incorrect, try again");
+                txtPassword.Clear();
+                txtUsername.Clear();
+                txtPassword.Focus();
+            }
+        }
     }
 }
