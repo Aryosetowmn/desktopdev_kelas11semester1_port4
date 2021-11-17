@@ -37,7 +37,8 @@ namespace Tioneel
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
-
+            new User().Show();
+            this.Hide();
         }
 
         private void gunaLabel5_Click(object sender, EventArgs e)
