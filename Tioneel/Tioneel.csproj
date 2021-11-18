@@ -119,5 +119,31 @@
   <ItemGroup>
     <None Include="Resources\profile.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\PhotoAsset\anggur.png" />
+    <Content Include="Resources\PhotoAsset\apel.png" />
+    <Content Include="Resources\PhotoAsset\bolpoin.png" />
+    <Content Include="Resources\PhotoAsset\cangkir.png" />
+    <Content Include="Resources\PhotoAsset\cola.png" />
+    <Content Include="Resources\PhotoAsset\colokan.png" />
+    <Content Include="Resources\PhotoAsset\hw.png" />
+    <Content Include="Resources\PhotoAsset\jeruk.png" />
+    <Content Include="Resources\PhotoAsset\lampu.png" />
+    <Content Include="Resources\PhotoAsset\mc.png" />
+    <Content Include="Resources\PhotoAsset\mizone.png" />
+    <Content Include="Resources\PhotoAsset\nabati.png" />
+    <Content Include="Resources\PhotoAsset\oreo.png" />
+    <Content Include="Resources\PhotoAsset\penghapus.png" />
+    <Content Include="Resources\PhotoAsset\pensil.png" />
+    <Content Include="Resources\PhotoAsset\piring.png" />
+    <Content Include="Resources\PhotoAsset\pulpy.png" />
+    <Content Include="Resources\PhotoAsset\segar.png" />
+    <Content Include="Resources\PhotoAsset\spaghetti.png" />
+    <Content Include="Resources\PhotoAsset\t.png" />
+    <Content Include="Resources\PhotoAsset\tandouri.png" />
+    <Content Include="Resources\PhotoAsset\taro.png" />
+    <Content Include="Resources\PhotoAsset\teriyaki.png" />
+    <Content Include="Resources\PhotoAsset\uno.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
