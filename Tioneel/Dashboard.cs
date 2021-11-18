@@ -60,5 +60,25 @@ namespace Tioneel
         {
             PnlStats.Top = BtnHome.Top;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LbAyamGoreng_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaButton6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaButton11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
