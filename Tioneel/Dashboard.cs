@@ -49,16 +49,31 @@ namespace Tioneel
         private void gunaButton3_Click(object sender, EventArgs e)
         {
             PnlStats.Top = BtnUtensils.Top;
+            PnlHome.Visible = false;
+            PnlUtensils.Visible = true;
+            PnlBtnUtensils.Visible = true;
+            PnlFood.Visible = false;
+            PnlBtnFood.Visible = false;
         }
 
         private void BtnFood_Click_1(object sender, EventArgs e)
         {
             PnlStats.Top = BtnFood.Top;
+            PnlHome.Visible = false;
+            PnlUtensils.Visible = false;
+            PnlBtnUtensils.Visible = false;
+            PnlFood.Visible = true;
+            PnlBtnFood.Visible = true;
         }
 
         private void BtnHome_Click_1(object sender, EventArgs e)
         {
             PnlStats.Top = BtnHome.Top;
+            PnlHome.Visible = true;
+            PnlUtensils.Visible = false;
+            PnlBtnUtensils.Visible = false;
+            PnlFood.Visible = false;
+            PnlBtnFood.Visible = false;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -77,6 +92,21 @@ namespace Tioneel
         }
 
         private void gunaButton11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaButton25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnKitchen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PnlBtnFood_Paint(object sender, PaintEventArgs e)
         {
 
         }
