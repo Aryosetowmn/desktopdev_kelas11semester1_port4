@@ -55,6 +55,150 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="itemBallpoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemBallpoint.Designer.cs">
+      <DependentUpon>itemBallpoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemBulb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemBulb.Designer.cs">
+      <DependentUpon>itemBulb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemCocacola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemCocacola.Designer.cs">
+      <DependentUpon>itemCocacola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemCup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemCup.Designer.cs">
+      <DependentUpon>itemCup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemEraser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemEraser.Designer.cs">
+      <DependentUpon>itemEraser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemGrape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemGrape.Designer.cs">
+      <DependentUpon>itemGrape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemApple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemApple.Designer.cs">
+      <DependentUpon>itemApple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemHotwheels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemHotwheels.Designer.cs">
+      <DependentUpon>itemHotwheels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemLego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemLego.Designer.cs">
+      <DependentUpon>itemLego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemMizone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemMizone.Designer.cs">
+      <DependentUpon>itemMizone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemNabati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemNabati.Designer.cs">
+      <DependentUpon>itemNabati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemOrange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemOrange.Designer.cs">
+      <DependentUpon>itemOrange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemOreo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemOreo.Designer.cs">
+      <DependentUpon>itemOreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemPencil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemPencil.Designer.cs">
+      <DependentUpon>itemPencil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemPlate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemPlate.Designer.cs">
+      <DependentUpon>itemPlate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemPulpy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemPulpy.Designer.cs">
+      <DependentUpon>itemPulpy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemSaklar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemSaklar.Designer.cs">
+      <DependentUpon>itemSaklar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemSpaghetti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemSpaghetti.Designer.cs">
+      <DependentUpon>itemSpaghetti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemSpoonfork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemSpoonfork.Designer.cs">
+      <DependentUpon>itemSpoonfork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemT.Designer.cs">
+      <DependentUpon>itemT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemTandouri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemTandouri.Designer.cs">
+      <DependentUpon>itemTandouri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemTaro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemTaro.Designer.cs">
+      <DependentUpon>itemTaro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemTeriyaki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemTeriyaki.Designer.cs">
+      <DependentUpon>itemTeriyaki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemUno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemUno.Designer.cs">
+      <DependentUpon>itemUno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,8 +219,80 @@
     <Compile Include="User.Designer.cs">
       <DependentUpon>User.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="itemBallpoint.resx">
+      <DependentUpon>itemBallpoint.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemBulb.resx">
+      <DependentUpon>itemBulb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemCocacola.resx">
+      <DependentUpon>itemCocacola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemCup.resx">
+      <DependentUpon>itemCup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemEraser.resx">
+      <DependentUpon>itemEraser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemGrape.resx">
+      <DependentUpon>itemGrape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemApple.resx">
+      <DependentUpon>itemApple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemHotwheels.resx">
+      <DependentUpon>itemHotwheels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemLego.resx">
+      <DependentUpon>itemLego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemMizone.resx">
+      <DependentUpon>itemMizone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemNabati.resx">
+      <DependentUpon>itemNabati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemOrange.resx">
+      <DependentUpon>itemOrange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemOreo.resx">
+      <DependentUpon>itemOreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemPencil.resx">
+      <DependentUpon>itemPencil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemPlate.resx">
+      <DependentUpon>itemPlate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemPulpy.resx">
+      <DependentUpon>itemPulpy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemSaklar.resx">
+      <DependentUpon>itemSaklar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemSpaghetti.resx">
+      <DependentUpon>itemSpaghetti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemSpoonfork.resx">
+      <DependentUpon>itemSpoonfork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemT.resx">
+      <DependentUpon>itemT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemTandouri.resx">
+      <DependentUpon>itemTandouri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemTaro.resx">
+      <DependentUpon>itemTaro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemTeriyaki.resx">
+      <DependentUpon>itemTeriyaki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemUno.resx">
+      <DependentUpon>itemUno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

@@ -37,8 +37,8 @@ namespace Tioneel
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
+            this.Close();
             new User().Show();
-            this.Hide();
         }
 
         private void gunaLabel5_Click(object sender, EventArgs e)
@@ -109,6 +109,161 @@ namespace Tioneel
         private void PnlBtnFood_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void gunaButton60_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemGrape().Show();
+        }
+
+        private void gunaButton59_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemApple().Show();
+        }
+
+        private void gunaButton62_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemBallpoint().Show();
+        }
+
+        private void gunaButton61_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemCup().Show();
+        }
+
+        private void gunaButton34_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new Login().Show();   
+        }
+
+        private void gunaButton56_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemCocacola().Show();
+        }
+
+        private void gunaButton55_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemSaklar().Show();
+        }
+
+        private void gunaButton57_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemHotwheels().Show();
+        }
+
+        private void gunaButton58_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemOrange().Show();
+        }
+
+        private void gunaButton52_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemBulb().Show();
+        }
+
+        private void gunaButton51_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemLego().Show();
+        }
+
+        private void PnlHome_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void gunaButton53_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemMizone().Show();
+        }
+
+        private void gunaButton54_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemNabati().Show();
+        }
+
+        private void gunaButton48_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemOreo().Show();
+        }
+
+        private void gunaButton47_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemEraser().Show();
+        }
+
+        private void gunaButton42_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemTeriyaki().Show();
+        }
+
+        private void gunaButton41_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemUno().Show();
+        }
+
+        private void gunaButton39_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemTaro().Show();
+        }
+
+        private void gunaButton40_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemTandouri().Show();
+        }
+
+        private void gunaButton44_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemPulpy().Show();
+        }
+
+        private void gunaButton43_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemSpoonfork().Show();
+        }
+
+        private void gunaButton45_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemSpaghetti().Show();
+        }
+
+        private void gunaButton46_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemT().Show();
+        }
+
+        private void gunaButton50_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemPlate().Show();
+        }
+
+        private void gunaButton49_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new itemPencil().Show();
         }
     }
 }

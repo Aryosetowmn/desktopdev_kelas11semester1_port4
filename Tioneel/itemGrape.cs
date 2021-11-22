@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace Tioneel
 {
-    public partial class User : Form
+    public partial class itemGrape : Form
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -23,7 +23,7 @@ namespace Tioneel
             int nWidthEllipse, // height of ellipse
             int nHeightEllipse // width of ellipse
         );
-        public User()
+        public itemGrape()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
@@ -35,21 +35,15 @@ namespace Tioneel
 
         }
 
-        private void User_Load(object sender, EventArgs e)
+        private void itemAnggur_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void gunaButton1_Click(object sender, EventArgs e)
-        {
-            new Dashboard().Show();
-            this.Close();
         }
 
         private void gunaControlBox1_Click(object sender, EventArgs e)
         {
-            new Dashboard().Show();
             this.Close();
+            new Dashboard().Show();
         }
     }
 }

@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
+
 namespace Tioneel
 {
-    public partial class User : Form
+    public partial class itemTandouri : Form
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -23,33 +24,22 @@ namespace Tioneel
             int nWidthEllipse, // height of ellipse
             int nHeightEllipse // width of ellipse
         );
-        public User()
+        public itemTandouri()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void User_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gunaButton1_Click(object sender, EventArgs e)
-        {
-            new Dashboard().Show();
-            this.Close();
-        }
-
         private void gunaControlBox1_Click(object sender, EventArgs e)
         {
-            new Dashboard().Show();
             this.Close();
+            new Dashboard().Show();
+        }
+
+        private void itemTandouri_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

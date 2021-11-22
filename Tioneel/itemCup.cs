@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace Tioneel
 {
-    public partial class User : Form
+    public partial class itemCup : Form
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -23,11 +23,41 @@ namespace Tioneel
             int nWidthEllipse, // height of ellipse
             int nHeightEllipse // width of ellipse
         );
-        public User()
+        public itemCup()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
+        }
+
+        private void gunaButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaControlBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaControlBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -35,21 +65,30 @@ namespace Tioneel
 
         }
 
-        private void User_Load(object sender, EventArgs e)
+        private void gunaButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            new Dashboard().Show();
-            this.Close();
+
         }
 
-        private void gunaControlBox1_Click(object sender, EventArgs e)
+        private void itemCup_Load(object sender, EventArgs e)
         {
-            new Dashboard().Show();
+
+        }
+
+        private void gunaControlBox1_Click_1(object sender, EventArgs e)
+        {
             this.Close();
+            new Dashboard().Show();
         }
     }
 }

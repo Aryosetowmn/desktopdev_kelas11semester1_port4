@@ -62,18 +62,6 @@ namespace Tioneel
             this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.PnlHome = new System.Windows.Forms.Panel();
-            this.gunaButton63 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton64 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton65 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton66 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton67 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton68 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton69 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton70 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton71 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton72 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton73 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton74 = new Guna.UI.WinForms.GunaButton();
             this.BtnUtensilsAll = new Guna.UI.WinForms.GunaButton();
             this.BtnElectronic = new Guna.UI.WinForms.GunaButton();
             this.BtnStationary = new Guna.UI.WinForms.GunaButton();
@@ -805,310 +793,11 @@ namespace Tioneel
             this.PnlHome.Controls.Add(this.gunaButton60);
             this.PnlHome.Controls.Add(this.gunaButton61);
             this.PnlHome.Controls.Add(this.gunaButton62);
-            this.PnlHome.Controls.Add(this.gunaButton63);
-            this.PnlHome.Controls.Add(this.gunaButton64);
-            this.PnlHome.Controls.Add(this.gunaButton65);
-            this.PnlHome.Controls.Add(this.gunaButton66);
-            this.PnlHome.Controls.Add(this.gunaButton67);
-            this.PnlHome.Controls.Add(this.gunaButton68);
-            this.PnlHome.Controls.Add(this.gunaButton69);
-            this.PnlHome.Controls.Add(this.gunaButton70);
-            this.PnlHome.Controls.Add(this.gunaButton71);
-            this.PnlHome.Controls.Add(this.gunaButton72);
-            this.PnlHome.Controls.Add(this.gunaButton73);
-            this.PnlHome.Controls.Add(this.gunaButton74);
             this.PnlHome.Location = new System.Drawing.Point(232, 148);
             this.PnlHome.Name = "PnlHome";
             this.PnlHome.Size = new System.Drawing.Size(1261, 706);
             this.PnlHome.TabIndex = 40;
-            // 
-            // gunaButton63
-            // 
-            this.gunaButton63.AnimationHoverSpeed = 0.07F;
-            this.gunaButton63.AnimationSpeed = 0.03F;
-            this.gunaButton63.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton63.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton63.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton63.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton63.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton63.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton63.Image = null;
-            this.gunaButton63.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton63.Location = new System.Drawing.Point(944, -680);
-            this.gunaButton63.Name = "gunaButton63";
-            this.gunaButton63.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton63.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton63.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton63.OnHoverImage = null;
-            this.gunaButton63.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton63.Radius = 10;
-            this.gunaButton63.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton63.TabIndex = 7;
-            // 
-            // gunaButton64
-            // 
-            this.gunaButton64.AnimationHoverSpeed = 0.07F;
-            this.gunaButton64.AnimationSpeed = 0.03F;
-            this.gunaButton64.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton64.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton64.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton64.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton64.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton64.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton64.Image = null;
-            this.gunaButton64.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton64.Location = new System.Drawing.Point(342, -421);
-            this.gunaButton64.Name = "gunaButton64";
-            this.gunaButton64.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton64.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton64.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton64.OnHoverImage = null;
-            this.gunaButton64.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton64.Radius = 10;
-            this.gunaButton64.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton64.TabIndex = 9;
-            // 
-            // gunaButton65
-            // 
-            this.gunaButton65.AnimationHoverSpeed = 0.07F;
-            this.gunaButton65.AnimationSpeed = 0.03F;
-            this.gunaButton65.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton65.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton65.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton65.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton65.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton65.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton65.Image = null;
-            this.gunaButton65.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton65.Location = new System.Drawing.Point(944, -421);
-            this.gunaButton65.Name = "gunaButton65";
-            this.gunaButton65.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton65.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton65.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton65.OnHoverImage = null;
-            this.gunaButton65.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton65.Radius = 10;
-            this.gunaButton65.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton65.TabIndex = 11;
-            // 
-            // gunaButton66
-            // 
-            this.gunaButton66.AnimationHoverSpeed = 0.07F;
-            this.gunaButton66.AnimationSpeed = 0.03F;
-            this.gunaButton66.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton66.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton66.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton66.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton66.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton66.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton66.Image = null;
-            this.gunaButton66.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton66.Location = new System.Drawing.Point(46, -421);
-            this.gunaButton66.Name = "gunaButton66";
-            this.gunaButton66.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton66.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton66.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton66.OnHoverImage = null;
-            this.gunaButton66.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton66.Radius = 10;
-            this.gunaButton66.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton66.TabIndex = 8;
-            // 
-            // gunaButton67
-            // 
-            this.gunaButton67.AnimationHoverSpeed = 0.07F;
-            this.gunaButton67.AnimationSpeed = 0.03F;
-            this.gunaButton67.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton67.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton67.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton67.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton67.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton67.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton67.Image = null;
-            this.gunaButton67.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton67.Location = new System.Drawing.Point(644, -421);
-            this.gunaButton67.Name = "gunaButton67";
-            this.gunaButton67.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton67.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton67.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton67.OnHoverImage = null;
-            this.gunaButton67.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton67.Radius = 10;
-            this.gunaButton67.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton67.TabIndex = 10;
-            // 
-            // gunaButton68
-            // 
-            this.gunaButton68.AnimationHoverSpeed = 0.07F;
-            this.gunaButton68.AnimationSpeed = 0.03F;
-            this.gunaButton68.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton68.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton68.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton68.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton68.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton68.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton68.Image = null;
-            this.gunaButton68.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton68.Location = new System.Drawing.Point(644, -680);
-            this.gunaButton68.Name = "gunaButton68";
-            this.gunaButton68.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton68.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton68.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton68.OnHoverImage = null;
-            this.gunaButton68.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton68.Radius = 10;
-            this.gunaButton68.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton68.TabIndex = 6;
-            // 
-            // gunaButton69
-            // 
-            this.gunaButton69.AnimationHoverSpeed = 0.07F;
-            this.gunaButton69.AnimationSpeed = 0.03F;
-            this.gunaButton69.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton69.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton69.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton69.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton69.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton69.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton69.Image = null;
-            this.gunaButton69.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton69.Location = new System.Drawing.Point(342, -680);
-            this.gunaButton69.Name = "gunaButton69";
-            this.gunaButton69.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton69.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton69.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton69.OnHoverImage = null;
-            this.gunaButton69.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton69.Radius = 10;
-            this.gunaButton69.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton69.TabIndex = 5;
-            // 
-            // gunaButton70
-            // 
-            this.gunaButton70.AnimationHoverSpeed = 0.07F;
-            this.gunaButton70.AnimationSpeed = 0.03F;
-            this.gunaButton70.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton70.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton70.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton70.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton70.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton70.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton70.Image = null;
-            this.gunaButton70.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton70.Location = new System.Drawing.Point(46, -680);
-            this.gunaButton70.Name = "gunaButton70";
-            this.gunaButton70.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton70.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton70.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton70.OnHoverImage = null;
-            this.gunaButton70.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton70.Radius = 10;
-            this.gunaButton70.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton70.TabIndex = 4;
-            // 
-            // gunaButton71
-            // 
-            this.gunaButton71.AnimationHoverSpeed = 0.07F;
-            this.gunaButton71.AnimationSpeed = 0.03F;
-            this.gunaButton71.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton71.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton71.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton71.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton71.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton71.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton71.Image = null;
-            this.gunaButton71.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton71.Location = new System.Drawing.Point(944, -941);
-            this.gunaButton71.Name = "gunaButton71";
-            this.gunaButton71.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton71.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton71.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton71.OnHoverImage = null;
-            this.gunaButton71.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton71.Radius = 10;
-            this.gunaButton71.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton71.TabIndex = 3;
-            // 
-            // gunaButton72
-            // 
-            this.gunaButton72.AnimationHoverSpeed = 0.07F;
-            this.gunaButton72.AnimationSpeed = 0.03F;
-            this.gunaButton72.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton72.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton72.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton72.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton72.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton72.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton72.Image = null;
-            this.gunaButton72.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton72.Location = new System.Drawing.Point(644, -941);
-            this.gunaButton72.Name = "gunaButton72";
-            this.gunaButton72.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton72.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton72.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton72.OnHoverImage = null;
-            this.gunaButton72.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton72.Radius = 10;
-            this.gunaButton72.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton72.TabIndex = 2;
-            // 
-            // gunaButton73
-            // 
-            this.gunaButton73.AnimationHoverSpeed = 0.07F;
-            this.gunaButton73.AnimationSpeed = 0.03F;
-            this.gunaButton73.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton73.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton73.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton73.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton73.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton73.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton73.Image = null;
-            this.gunaButton73.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton73.Location = new System.Drawing.Point(342, -941);
-            this.gunaButton73.Name = "gunaButton73";
-            this.gunaButton73.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton73.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton73.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton73.OnHoverImage = null;
-            this.gunaButton73.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton73.Radius = 10;
-            this.gunaButton73.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton73.TabIndex = 1;
-            // 
-            // gunaButton74
-            // 
-            this.gunaButton74.AnimationHoverSpeed = 0.07F;
-            this.gunaButton74.AnimationSpeed = 0.03F;
-            this.gunaButton74.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton74.BaseColor = System.Drawing.Color.Gray;
-            this.gunaButton74.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton74.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton74.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton74.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaButton74.Image = null;
-            this.gunaButton74.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton74.Location = new System.Drawing.Point(46, -941);
-            this.gunaButton74.Name = "gunaButton74";
-            this.gunaButton74.OnHoverBaseColor = System.Drawing.Color.Silver;
-            this.gunaButton74.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton74.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton74.OnHoverImage = null;
-            this.gunaButton74.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton74.Radius = 10;
-            this.gunaButton74.Size = new System.Drawing.Size(253, 217);
-            this.gunaButton74.TabIndex = 0;
+            this.PnlHome.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlHome_Paint);
             // 
             // BtnUtensilsAll
             // 
@@ -1732,7 +1421,7 @@ namespace Tioneel
             this.gunaButton39.Image = global::Tioneel.Properties.Resources.taro;
             this.gunaButton39.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton39.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton39.Location = new System.Drawing.Point(342, 1354);
+            this.gunaButton39.Location = new System.Drawing.Point(307, 1319);
             this.gunaButton39.Name = "gunaButton39";
             this.gunaButton39.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton39.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1742,6 +1431,7 @@ namespace Tioneel
             this.gunaButton39.Radius = 10;
             this.gunaButton39.Size = new System.Drawing.Size(253, 217);
             this.gunaButton39.TabIndex = 38;
+            this.gunaButton39.Click += new System.EventHandler(this.gunaButton39_Click);
             // 
             // gunaButton40
             // 
@@ -1757,7 +1447,7 @@ namespace Tioneel
             this.gunaButton40.Image = global::Tioneel.Properties.Resources.tandouri;
             this.gunaButton40.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton40.ImageSize = new System.Drawing.Size(185, 125);
-            this.gunaButton40.Location = new System.Drawing.Point(46, 1354);
+            this.gunaButton40.Location = new System.Drawing.Point(11, 1319);
             this.gunaButton40.Name = "gunaButton40";
             this.gunaButton40.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton40.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1767,6 +1457,7 @@ namespace Tioneel
             this.gunaButton40.Radius = 10;
             this.gunaButton40.Size = new System.Drawing.Size(253, 217);
             this.gunaButton40.TabIndex = 37;
+            this.gunaButton40.Click += new System.EventHandler(this.gunaButton40_Click);
             // 
             // gunaButton41
             // 
@@ -1782,7 +1473,7 @@ namespace Tioneel
             this.gunaButton41.Image = global::Tioneel.Properties.Resources.uno;
             this.gunaButton41.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton41.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton41.Location = new System.Drawing.Point(643, 1354);
+            this.gunaButton41.Location = new System.Drawing.Point(608, 1319);
             this.gunaButton41.Name = "gunaButton41";
             this.gunaButton41.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton41.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1792,6 +1483,7 @@ namespace Tioneel
             this.gunaButton41.Radius = 10;
             this.gunaButton41.Size = new System.Drawing.Size(253, 217);
             this.gunaButton41.TabIndex = 39;
+            this.gunaButton41.Click += new System.EventHandler(this.gunaButton41_Click);
             // 
             // gunaButton42
             // 
@@ -1807,7 +1499,7 @@ namespace Tioneel
             this.gunaButton42.Image = global::Tioneel.Properties.Resources.teriyaki;
             this.gunaButton42.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton42.ImageSize = new System.Drawing.Size(185, 125);
-            this.gunaButton42.Location = new System.Drawing.Point(948, 1354);
+            this.gunaButton42.Location = new System.Drawing.Point(913, 1319);
             this.gunaButton42.Name = "gunaButton42";
             this.gunaButton42.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton42.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1817,6 +1509,7 @@ namespace Tioneel
             this.gunaButton42.Radius = 10;
             this.gunaButton42.Size = new System.Drawing.Size(253, 217);
             this.gunaButton42.TabIndex = 36;
+            this.gunaButton42.Click += new System.EventHandler(this.gunaButton42_Click);
             // 
             // gunaButton43
             // 
@@ -1832,7 +1525,7 @@ namespace Tioneel
             this.gunaButton43.Image = global::Tioneel.Properties.Resources.segar;
             this.gunaButton43.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton43.ImageSize = new System.Drawing.Size(200, 175);
-            this.gunaButton43.Location = new System.Drawing.Point(342, 1096);
+            this.gunaButton43.Location = new System.Drawing.Point(307, 1061);
             this.gunaButton43.Name = "gunaButton43";
             this.gunaButton43.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton43.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1842,6 +1535,7 @@ namespace Tioneel
             this.gunaButton43.Radius = 10;
             this.gunaButton43.Size = new System.Drawing.Size(253, 217);
             this.gunaButton43.TabIndex = 34;
+            this.gunaButton43.Click += new System.EventHandler(this.gunaButton43_Click);
             // 
             // gunaButton44
             // 
@@ -1857,7 +1551,7 @@ namespace Tioneel
             this.gunaButton44.Image = global::Tioneel.Properties.Resources.pulpy;
             this.gunaButton44.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton44.ImageSize = new System.Drawing.Size(252, 154);
-            this.gunaButton44.Location = new System.Drawing.Point(46, 1096);
+            this.gunaButton44.Location = new System.Drawing.Point(11, 1061);
             this.gunaButton44.Name = "gunaButton44";
             this.gunaButton44.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton44.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1867,6 +1561,7 @@ namespace Tioneel
             this.gunaButton44.Radius = 10;
             this.gunaButton44.Size = new System.Drawing.Size(253, 217);
             this.gunaButton44.TabIndex = 33;
+            this.gunaButton44.Click += new System.EventHandler(this.gunaButton44_Click);
             // 
             // gunaButton45
             // 
@@ -1882,7 +1577,7 @@ namespace Tioneel
             this.gunaButton45.Image = global::Tioneel.Properties.Resources.spaghetti;
             this.gunaButton45.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton45.ImageSize = new System.Drawing.Size(185, 125);
-            this.gunaButton45.Location = new System.Drawing.Point(656, 1096);
+            this.gunaButton45.Location = new System.Drawing.Point(621, 1061);
             this.gunaButton45.Name = "gunaButton45";
             this.gunaButton45.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton45.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1892,6 +1587,7 @@ namespace Tioneel
             this.gunaButton45.Radius = 10;
             this.gunaButton45.Size = new System.Drawing.Size(253, 217);
             this.gunaButton45.TabIndex = 35;
+            this.gunaButton45.Click += new System.EventHandler(this.gunaButton45_Click);
             // 
             // gunaButton46
             // 
@@ -1907,7 +1603,7 @@ namespace Tioneel
             this.gunaButton46.Image = global::Tioneel.Properties.Resources.t;
             this.gunaButton46.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton46.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton46.Location = new System.Drawing.Point(948, 1096);
+            this.gunaButton46.Location = new System.Drawing.Point(913, 1061);
             this.gunaButton46.Name = "gunaButton46";
             this.gunaButton46.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton46.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1917,6 +1613,7 @@ namespace Tioneel
             this.gunaButton46.Radius = 10;
             this.gunaButton46.Size = new System.Drawing.Size(253, 217);
             this.gunaButton46.TabIndex = 32;
+            this.gunaButton46.Click += new System.EventHandler(this.gunaButton46_Click);
             // 
             // gunaButton47
             // 
@@ -1932,7 +1629,7 @@ namespace Tioneel
             this.gunaButton47.Image = global::Tioneel.Properties.Resources.penghapus;
             this.gunaButton47.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton47.ImageSize = new System.Drawing.Size(175, 115);
-            this.gunaButton47.Location = new System.Drawing.Point(342, 837);
+            this.gunaButton47.Location = new System.Drawing.Point(307, 802);
             this.gunaButton47.Name = "gunaButton47";
             this.gunaButton47.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton47.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1942,6 +1639,7 @@ namespace Tioneel
             this.gunaButton47.Radius = 10;
             this.gunaButton47.Size = new System.Drawing.Size(253, 217);
             this.gunaButton47.TabIndex = 30;
+            this.gunaButton47.Click += new System.EventHandler(this.gunaButton47_Click);
             // 
             // gunaButton48
             // 
@@ -1957,7 +1655,7 @@ namespace Tioneel
             this.gunaButton48.Image = global::Tioneel.Properties.Resources.oreo;
             this.gunaButton48.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton48.ImageSize = new System.Drawing.Size(195, 75);
-            this.gunaButton48.Location = new System.Drawing.Point(46, 837);
+            this.gunaButton48.Location = new System.Drawing.Point(11, 802);
             this.gunaButton48.Name = "gunaButton48";
             this.gunaButton48.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton48.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1967,6 +1665,7 @@ namespace Tioneel
             this.gunaButton48.Radius = 10;
             this.gunaButton48.Size = new System.Drawing.Size(253, 217);
             this.gunaButton48.TabIndex = 29;
+            this.gunaButton48.Click += new System.EventHandler(this.gunaButton48_Click);
             // 
             // gunaButton49
             // 
@@ -1982,7 +1681,7 @@ namespace Tioneel
             this.gunaButton49.Image = global::Tioneel.Properties.Resources.pensil;
             this.gunaButton49.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton49.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton49.Location = new System.Drawing.Point(643, 837);
+            this.gunaButton49.Location = new System.Drawing.Point(608, 802);
             this.gunaButton49.Name = "gunaButton49";
             this.gunaButton49.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton49.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1992,6 +1691,7 @@ namespace Tioneel
             this.gunaButton49.Radius = 10;
             this.gunaButton49.Size = new System.Drawing.Size(253, 217);
             this.gunaButton49.TabIndex = 31;
+            this.gunaButton49.Click += new System.EventHandler(this.gunaButton49_Click);
             // 
             // gunaButton50
             // 
@@ -2007,7 +1707,7 @@ namespace Tioneel
             this.gunaButton50.Image = global::Tioneel.Properties.Resources.piring;
             this.gunaButton50.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton50.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton50.Location = new System.Drawing.Point(948, 837);
+            this.gunaButton50.Location = new System.Drawing.Point(913, 802);
             this.gunaButton50.Name = "gunaButton50";
             this.gunaButton50.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton50.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2017,6 +1717,7 @@ namespace Tioneel
             this.gunaButton50.Radius = 10;
             this.gunaButton50.Size = new System.Drawing.Size(253, 217);
             this.gunaButton50.TabIndex = 28;
+            this.gunaButton50.Click += new System.EventHandler(this.gunaButton50_Click);
             // 
             // gunaButton51
             // 
@@ -2032,7 +1733,7 @@ namespace Tioneel
             this.gunaButton51.Image = global::Tioneel.Properties.Resources.mc;
             this.gunaButton51.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton51.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton51.Location = new System.Drawing.Point(342, 576);
+            this.gunaButton51.Location = new System.Drawing.Point(307, 541);
             this.gunaButton51.Name = "gunaButton51";
             this.gunaButton51.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton51.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2042,6 +1743,7 @@ namespace Tioneel
             this.gunaButton51.Radius = 10;
             this.gunaButton51.Size = new System.Drawing.Size(253, 217);
             this.gunaButton51.TabIndex = 26;
+            this.gunaButton51.Click += new System.EventHandler(this.gunaButton51_Click);
             // 
             // gunaButton52
             // 
@@ -2057,7 +1759,7 @@ namespace Tioneel
             this.gunaButton52.Image = global::Tioneel.Properties.Resources.lampu;
             this.gunaButton52.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton52.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton52.Location = new System.Drawing.Point(46, 576);
+            this.gunaButton52.Location = new System.Drawing.Point(11, 541);
             this.gunaButton52.Name = "gunaButton52";
             this.gunaButton52.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton52.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2067,6 +1769,7 @@ namespace Tioneel
             this.gunaButton52.Radius = 10;
             this.gunaButton52.Size = new System.Drawing.Size(253, 217);
             this.gunaButton52.TabIndex = 25;
+            this.gunaButton52.Click += new System.EventHandler(this.gunaButton52_Click);
             // 
             // gunaButton53
             // 
@@ -2082,7 +1785,7 @@ namespace Tioneel
             this.gunaButton53.Image = global::Tioneel.Properties.Resources.mizone;
             this.gunaButton53.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton53.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton53.Location = new System.Drawing.Point(643, 576);
+            this.gunaButton53.Location = new System.Drawing.Point(608, 541);
             this.gunaButton53.Name = "gunaButton53";
             this.gunaButton53.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton53.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2092,6 +1795,7 @@ namespace Tioneel
             this.gunaButton53.Radius = 10;
             this.gunaButton53.Size = new System.Drawing.Size(253, 217);
             this.gunaButton53.TabIndex = 27;
+            this.gunaButton53.Click += new System.EventHandler(this.gunaButton53_Click);
             // 
             // gunaButton54
             // 
@@ -2107,7 +1811,7 @@ namespace Tioneel
             this.gunaButton54.Image = global::Tioneel.Properties.Resources.nabati;
             this.gunaButton54.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton54.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton54.Location = new System.Drawing.Point(948, 576);
+            this.gunaButton54.Location = new System.Drawing.Point(913, 541);
             this.gunaButton54.Name = "gunaButton54";
             this.gunaButton54.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton54.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2117,6 +1821,7 @@ namespace Tioneel
             this.gunaButton54.Radius = 10;
             this.gunaButton54.Size = new System.Drawing.Size(253, 217);
             this.gunaButton54.TabIndex = 24;
+            this.gunaButton54.Click += new System.EventHandler(this.gunaButton54_Click);
             // 
             // gunaButton55
             // 
@@ -2132,7 +1837,7 @@ namespace Tioneel
             this.gunaButton55.Image = global::Tioneel.Properties.Resources.colokan;
             this.gunaButton55.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton55.ImageSize = new System.Drawing.Size(250, 170);
-            this.gunaButton55.Location = new System.Drawing.Point(342, 315);
+            this.gunaButton55.Location = new System.Drawing.Point(307, 280);
             this.gunaButton55.Name = "gunaButton55";
             this.gunaButton55.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton55.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2142,6 +1847,7 @@ namespace Tioneel
             this.gunaButton55.Radius = 10;
             this.gunaButton55.Size = new System.Drawing.Size(253, 217);
             this.gunaButton55.TabIndex = 22;
+            this.gunaButton55.Click += new System.EventHandler(this.gunaButton55_Click);
             // 
             // gunaButton56
             // 
@@ -2157,7 +1863,7 @@ namespace Tioneel
             this.gunaButton56.Image = global::Tioneel.Properties.Resources.cola;
             this.gunaButton56.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton56.ImageSize = new System.Drawing.Size(375, 150);
-            this.gunaButton56.Location = new System.Drawing.Point(46, 315);
+            this.gunaButton56.Location = new System.Drawing.Point(11, 280);
             this.gunaButton56.Name = "gunaButton56";
             this.gunaButton56.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton56.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2167,6 +1873,7 @@ namespace Tioneel
             this.gunaButton56.Radius = 10;
             this.gunaButton56.Size = new System.Drawing.Size(253, 217);
             this.gunaButton56.TabIndex = 21;
+            this.gunaButton56.Click += new System.EventHandler(this.gunaButton56_Click);
             // 
             // gunaButton57
             // 
@@ -2182,7 +1889,7 @@ namespace Tioneel
             this.gunaButton57.Image = global::Tioneel.Properties.Resources.hw;
             this.gunaButton57.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton57.ImageSize = new System.Drawing.Size(200, 150);
-            this.gunaButton57.Location = new System.Drawing.Point(643, 315);
+            this.gunaButton57.Location = new System.Drawing.Point(608, 280);
             this.gunaButton57.Name = "gunaButton57";
             this.gunaButton57.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton57.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2192,6 +1899,7 @@ namespace Tioneel
             this.gunaButton57.Radius = 10;
             this.gunaButton57.Size = new System.Drawing.Size(253, 217);
             this.gunaButton57.TabIndex = 23;
+            this.gunaButton57.Click += new System.EventHandler(this.gunaButton57_Click);
             // 
             // gunaButton58
             // 
@@ -2207,7 +1915,7 @@ namespace Tioneel
             this.gunaButton58.Image = global::Tioneel.Properties.Resources.jeruk;
             this.gunaButton58.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton58.ImageSize = new System.Drawing.Size(252, 154);
-            this.gunaButton58.Location = new System.Drawing.Point(948, 315);
+            this.gunaButton58.Location = new System.Drawing.Point(913, 280);
             this.gunaButton58.Name = "gunaButton58";
             this.gunaButton58.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton58.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2217,6 +1925,7 @@ namespace Tioneel
             this.gunaButton58.Radius = 10;
             this.gunaButton58.Size = new System.Drawing.Size(253, 217);
             this.gunaButton58.TabIndex = 20;
+            this.gunaButton58.Click += new System.EventHandler(this.gunaButton58_Click);
             // 
             // gunaButton59
             // 
@@ -2232,7 +1941,7 @@ namespace Tioneel
             this.gunaButton59.Image = global::Tioneel.Properties.Resources.apel;
             this.gunaButton59.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton59.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton59.Location = new System.Drawing.Point(342, 53);
+            this.gunaButton59.Location = new System.Drawing.Point(307, 18);
             this.gunaButton59.Name = "gunaButton59";
             this.gunaButton59.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton59.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2242,6 +1951,7 @@ namespace Tioneel
             this.gunaButton59.Radius = 10;
             this.gunaButton59.Size = new System.Drawing.Size(253, 217);
             this.gunaButton59.TabIndex = 18;
+            this.gunaButton59.Click += new System.EventHandler(this.gunaButton59_Click);
             // 
             // gunaButton60
             // 
@@ -2257,7 +1967,7 @@ namespace Tioneel
             this.gunaButton60.Image = global::Tioneel.Properties.Resources.anggur;
             this.gunaButton60.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton60.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton60.Location = new System.Drawing.Point(46, 53);
+            this.gunaButton60.Location = new System.Drawing.Point(11, 18);
             this.gunaButton60.Name = "gunaButton60";
             this.gunaButton60.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton60.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2267,6 +1977,7 @@ namespace Tioneel
             this.gunaButton60.Radius = 10;
             this.gunaButton60.Size = new System.Drawing.Size(253, 217);
             this.gunaButton60.TabIndex = 17;
+            this.gunaButton60.Click += new System.EventHandler(this.gunaButton60_Click);
             // 
             // gunaButton61
             // 
@@ -2282,7 +1993,7 @@ namespace Tioneel
             this.gunaButton61.Image = global::Tioneel.Properties.Resources.cangkir;
             this.gunaButton61.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton61.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton61.Location = new System.Drawing.Point(948, 53);
+            this.gunaButton61.Location = new System.Drawing.Point(913, 18);
             this.gunaButton61.Name = "gunaButton61";
             this.gunaButton61.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton61.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2292,6 +2003,7 @@ namespace Tioneel
             this.gunaButton61.Radius = 10;
             this.gunaButton61.Size = new System.Drawing.Size(253, 217);
             this.gunaButton61.TabIndex = 16;
+            this.gunaButton61.Click += new System.EventHandler(this.gunaButton61_Click);
             // 
             // gunaButton62
             // 
@@ -2307,7 +2019,7 @@ namespace Tioneel
             this.gunaButton62.Image = global::Tioneel.Properties.Resources.bolpoin;
             this.gunaButton62.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton62.ImageSize = new System.Drawing.Size(150, 150);
-            this.gunaButton62.Location = new System.Drawing.Point(643, 53);
+            this.gunaButton62.Location = new System.Drawing.Point(608, 18);
             this.gunaButton62.Name = "gunaButton62";
             this.gunaButton62.OnHoverBaseColor = System.Drawing.Color.Silver;
             this.gunaButton62.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -2317,6 +2029,7 @@ namespace Tioneel
             this.gunaButton62.Radius = 10;
             this.gunaButton62.Size = new System.Drawing.Size(253, 217);
             this.gunaButton62.TabIndex = 19;
+            this.gunaButton62.Click += new System.EventHandler(this.gunaButton62_Click);
             // 
             // gunaButton15
             // 
@@ -2956,17 +2669,18 @@ namespace Tioneel
             this.gunaButton34.ForeColor = System.Drawing.Color.White;
             this.gunaButton34.Image = global::Tioneel.Properties.Resources.on_off_button;
             this.gunaButton34.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton34.ImageSize = new System.Drawing.Size(50, 50);
-            this.gunaButton34.Location = new System.Drawing.Point(81, 828);
+            this.gunaButton34.ImageSize = new System.Drawing.Size(30, 30);
+            this.gunaButton34.Location = new System.Drawing.Point(101, 855);
             this.gunaButton34.Name = "gunaButton34";
             this.gunaButton34.OnHoverBaseColor = System.Drawing.Color.Gray;
             this.gunaButton34.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButton34.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton34.OnHoverImage = null;
             this.gunaButton34.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton34.Radius = 30;
-            this.gunaButton34.Size = new System.Drawing.Size(84, 77);
+            this.gunaButton34.Radius = 15;
+            this.gunaButton34.Size = new System.Drawing.Size(50, 50);
             this.gunaButton34.TabIndex = 18;
+            this.gunaButton34.Click += new System.EventHandler(this.gunaButton34_Click);
             // 
             // pictureBox1
             // 
@@ -3188,18 +2902,6 @@ namespace Tioneel
         private Guna.UI.WinForms.GunaButton gunaButton60;
         private Guna.UI.WinForms.GunaButton gunaButton61;
         private Guna.UI.WinForms.GunaButton gunaButton62;
-        private Guna.UI.WinForms.GunaButton gunaButton63;
-        private Guna.UI.WinForms.GunaButton gunaButton64;
-        private Guna.UI.WinForms.GunaButton gunaButton65;
-        private Guna.UI.WinForms.GunaButton gunaButton66;
-        private Guna.UI.WinForms.GunaButton gunaButton67;
-        private Guna.UI.WinForms.GunaButton gunaButton68;
-        private Guna.UI.WinForms.GunaButton gunaButton69;
-        private Guna.UI.WinForms.GunaButton gunaButton70;
-        private Guna.UI.WinForms.GunaButton gunaButton71;
-        private Guna.UI.WinForms.GunaButton gunaButton72;
-        private Guna.UI.WinForms.GunaButton gunaButton73;
-        private Guna.UI.WinForms.GunaButton gunaButton74;
         private Guna.UI.WinForms.GunaButton BtnUtensilsAll;
         private Guna.UI.WinForms.GunaButton BtnElectronic;
         private Guna.UI.WinForms.GunaButton BtnStationary;
