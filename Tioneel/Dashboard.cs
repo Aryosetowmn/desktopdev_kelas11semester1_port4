@@ -265,5 +265,10 @@ namespace Tioneel
             this.Close();
             new itemPencil().Show();
         }
+
+        private void gunaControlBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
