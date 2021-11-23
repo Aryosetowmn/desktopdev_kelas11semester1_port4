@@ -54,6 +54,16 @@ namespace Tioneel
             PnlBtnUtensils.Visible = true;
             PnlFood.Visible = false;
             PnlBtnFood.Visible = false;
+            PnlBtnAllUtensils.Visible = false;
+            PnlBtnElectronic.Visible = false;
+            PnlBtnStationary.Visible = false;
+            PnlBtnKitchen.Visible = false;
+            PnlBtnToys.Visible = false;
+            PnlBtnAllFood.Visible = false;
+            PnlBtnMeal.Visible = false;
+            PnlBtnDrinks.Visible = false;
+            PnlBtnSnacks.Visible = false;
+            PnlBtnFruit.Visible = false;
         }
 
         private void BtnFood_Click_1(object sender, EventArgs e)
@@ -64,6 +74,16 @@ namespace Tioneel
             PnlBtnUtensils.Visible = false;
             PnlFood.Visible = true;
             PnlBtnFood.Visible = true;
+            PnlBtnAllUtensils.Visible = false;
+            PnlBtnElectronic.Visible = false;
+            PnlBtnStationary.Visible = false;
+            PnlBtnKitchen.Visible = false;
+            PnlBtnToys.Visible = false;
+            PnlBtnAllFood.Visible = false;
+            PnlBtnMeal.Visible = false;
+            PnlBtnDrinks.Visible = false;
+            PnlBtnSnacks.Visible = false;
+            PnlBtnFruit.Visible = false;
         }
 
         private void BtnHome_Click_1(object sender, EventArgs e)
@@ -74,6 +94,16 @@ namespace Tioneel
             PnlBtnUtensils.Visible = false;
             PnlFood.Visible = false;
             PnlBtnFood.Visible = false;
+            PnlBtnAllUtensils.Visible = false;
+            PnlBtnElectronic.Visible = false;
+            PnlBtnStationary.Visible = false;
+            PnlBtnKitchen.Visible = false;
+            PnlBtnToys.Visible = false;
+            PnlBtnAllFood.Visible = false;
+            PnlBtnMeal.Visible = false;
+            PnlBtnDrinks.Visible = false;
+            PnlBtnSnacks.Visible = false;
+            PnlBtnFruit.Visible = false;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -97,11 +127,6 @@ namespace Tioneel
         }
 
         private void gunaButton25_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnKitchen_Click(object sender, EventArgs e)
         {
 
         }
@@ -269,6 +294,113 @@ namespace Tioneel
         private void gunaControlBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void PnlFood_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BtnFoodAll_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllFood.Visible = true;
+            PnlBtnMeal.Visible = false;
+            PnlBtnDrinks.Visible = false;
+            PnlBtnSnacks.Visible = false;
+            PnlBtnFruit.Visible = false;
+        }
+
+        private void BtnUtensilsAll_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllUtensils.Visible = true;
+            PnlBtnElectronic.Visible = false;
+            PnlBtnStationary.Visible = false;
+            PnlBtnKitchen.Visible = false;
+            
+           
+        }
+
+        private void BtnElectronic_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllUtensils.Visible = false;
+            PnlBtnElectronic.Visible = true;
+            PnlBtnStationary.Visible = false;
+            PnlBtnKitchen.Visible = false;
+            PnlBtnToys.Visible = false;
+
+
+
+        }
+
+        private void BtnStationary_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllUtensils.Visible = false;
+            PnlBtnElectronic.Visible = false;
+            PnlBtnStationary.Visible = true;
+            PnlBtnKitchen.Visible = false;
+            PnlBtnToys.Visible = false;
+
+
+        }
+
+        private void BtnToys_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllUtensils.Visible = false;
+            PnlBtnElectronic.Visible = false;
+            PnlBtnStationary.Visible = false;
+            PnlBtnKitchen.Visible = false;
+            PnlBtnToys.Visible = true;
+
+
+        }
+
+        private void BtnKitchen_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllUtensils.Visible = false;
+            PnlBtnElectronic.Visible = false;
+            PnlBtnStationary.Visible = false;
+            PnlBtnKitchen.Visible = true;
+            PnlBtnToys.Visible = false;
+        }
+
+        private void gunaButton145_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnMeal_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllFood.Visible = false;
+            PnlBtnMeal.Visible = true;
+            PnlBtnDrinks.Visible = false;
+            PnlBtnSnacks.Visible = false;
+        }
+
+        private void BtnDrinks_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllFood.Visible = false;
+            PnlBtnMeal.Visible = false;
+            PnlBtnDrinks.Visible = true;
+            PnlBtnSnacks.Visible = false;
+
+        }
+
+        private void BtnSnacks_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllFood.Visible = false;
+            PnlBtnMeal.Visible = false;
+            PnlBtnDrinks.Visible = false;
+            PnlBtnSnacks.Visible = true;
+            PnlBtnFruit.Visible = false;
+        }
+
+        private void BtnFruit_Click(object sender, EventArgs e)
+        {
+            PnlBtnAllFood.Visible = false;
+            PnlBtnMeal.Visible = false;
+            PnlBtnDrinks.Visible = false;
+            PnlBtnSnacks.Visible = false;
+            PnlBtnFruit.Visible = true;
         }
     }
 }
