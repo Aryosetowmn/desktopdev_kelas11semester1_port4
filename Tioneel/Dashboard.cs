@@ -37,8 +37,11 @@ namespace Tioneel
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new User().Show();
+            Hide();
+            User form2 = new User();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaLabel5_Click(object sender, EventArgs e)
@@ -138,26 +141,38 @@ namespace Tioneel
 
         private void gunaButton60_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemGrape().Show();
+            Hide();
+            itemGrape form2 = new itemGrape();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton59_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemApple().Show();
+            Hide();
+            itemApple form2 = new itemApple();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton62_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemBallpoint().Show();
+            Hide();
+            itemBallpoint form2 = new itemBallpoint();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton61_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemCup().Show();
+            Hide();
+            itemCup form2 = new itemCup();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton34_Click(object sender, EventArgs e)
@@ -168,38 +183,56 @@ namespace Tioneel
 
         private void gunaButton56_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemCocacola().Show();
+            Hide();
+            itemCocacola form2 = new itemCocacola();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton55_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemSaklar().Show();
+            Hide();
+            itemSaklar form2 = new itemSaklar();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton57_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemHotwheels().Show();
+            Hide();
+            itemHotwheels form2 = new itemHotwheels();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton58_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemOrange().Show();
+            Hide();
+            itemOrange form2 = new itemOrange();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton52_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemBulb().Show();
+            Hide();
+            itemBulb form2 = new itemBulb();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton51_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemLego().Show();
+            Hide();
+            itemLego form2 = new itemLego();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void PnlHome_Paint(object sender, PaintEventArgs e)
@@ -209,86 +242,128 @@ namespace Tioneel
 
         private void gunaButton53_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemMizone().Show();
+            Hide();
+            itemMizone form2 = new itemMizone();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton54_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemNabati().Show();
+            Hide();
+            itemNabati form2 = new itemNabati();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton48_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemOreo().Show();
+            Hide();
+            itemOreo form2 = new itemOreo();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton47_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemEraser().Show();
+            Hide();
+            itemEraser form2 = new itemEraser();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton42_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemTeriyaki().Show();
+            Hide();
+            itemTeriyaki form2 = new itemTeriyaki();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton41_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemUno().Show();
+            Hide();
+            itemUno form2 = new itemUno();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton39_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemTaro().Show();
+            Hide();
+            itemTaro form2 = new itemTaro();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton40_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemTandouri().Show();
+            Hide();
+            itemTandouri form2 = new itemTandouri();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton44_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemPulpy().Show();
+            Hide();
+            itemPulpy form2 = new itemPulpy();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton43_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemSpoonfork().Show();
+            Hide();
+            itemSpoonfork form2 = new itemSpoonfork();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton45_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemSpaghetti().Show();
+            Hide();
+            itemSpaghetti form2 = new itemSpaghetti();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton46_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemT().Show();
+            Hide();
+            itemT form2 = new itemT();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton50_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemPlate().Show();
+            Hide();
+            itemPlate form2 = new itemPlate();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaButton49_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new itemPencil().Show();
+            Hide();
+            itemPencil form2 = new itemPencil();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
 
         private void gunaControlBox1_Click(object sender, EventArgs e)
@@ -401,6 +476,654 @@ namespace Tioneel
             PnlBtnDrinks.Visible = false;
             PnlBtnSnacks.Visible = false;
             PnlBtnFruit.Visible = true;
+        }
+
+        private void gunaButton10_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemBulb form2 = new itemBulb();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton11_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+            itemSaklar form2 = new itemSaklar();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton14_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemBallpoint form2 = new itemBallpoint();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton13_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemCup form2 = new itemCup();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton4_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemSpoonfork form2 = new itemSpoonfork();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton9_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemLego form2 = new itemLego();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton12_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemHotwheels form2 = new itemHotwheels();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton8_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemPlate form2 = new itemPlate();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton6_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+            itemEraser form2 = new itemEraser();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton7_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemPencil form2 = new itemPencil();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton5_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemT form2 = new itemT();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton3_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+            itemUno form2 = new itemUno();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton67_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemBulb form2 = new itemBulb();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton68_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemSaklar form2 = new itemSaklar();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton71_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemBallpoint form2 = new itemBallpoint();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton70_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemCup form2 = new itemCup();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton36_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemSpoonfork form2 = new itemSpoonfork();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton66_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemLego form2 = new itemLego();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton69_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemHotwheels form2 = new itemHotwheels();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton65_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemPlate form2 = new itemPlate();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton63_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemEraser form2 = new itemEraser();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton64_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemPencil form2 = new itemPencil();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton37_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemT form2 = new itemT();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton20_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemUno form2 = new itemUno();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton109_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemBulb form2 = new itemBulb();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton110_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemSaklar form2 = new itemSaklar();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton104_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemT form2 = new itemT();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton102_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemUno form2 = new itemUno();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton113_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemLego form2 = new itemLego();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton156_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemHotwheels form2 = new itemHotwheels();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton103_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemSpoonfork form2 = new itemSpoonfork();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton108_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemPlate form2 = new itemPlate();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton127_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemCup form2 = new itemCup();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton135_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemEraser form2 = new itemEraser();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton136_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemPencil form2 = new itemPencil();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton143_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemBallpoint form2 = new itemBallpoint();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton84_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemGrape form2 = new itemGrape();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton83_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemApple form2 = new itemApple();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton82_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemOrange form2 = new itemOrange();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton15_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTaro form2 = new itemTaro();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton80_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemCocacola form2 = new itemCocacola();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton77_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemMizone form2 = new itemMizone();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton78_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemNabati form2 = new itemNabati();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton35_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemOreo form2 = new itemOreo();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton29_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemSpaghetti form2 = new itemSpaghetti();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton25_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+            itemPulpy form2 = new itemPulpy();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton21_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTeriyaki form2 = new itemTeriyaki();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton18_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTandouri form2 = new itemTandouri();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton173_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemGrape form2 = new itemGrape();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton172_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemApple form2 = new itemApple();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton171_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemOrange form2 = new itemOrange();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton105_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTaro form2 = new itemTaro();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton158_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemCocacola form2 = new itemCocacola();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton128_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemMizone form2 = new itemMizone();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton157_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemNabati form2 = new itemNabati();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton126_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemOreo form2 = new itemOreo();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton112_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemSpaghetti form2 = new itemSpaghetti();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton111_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemPulpy form2 = new itemPulpy();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton107_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTeriyaki form2 = new itemTeriyaki();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton106_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTandouri form2 = new itemTandouri();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton242_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemGrape form2 = new itemGrape();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton241_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemApple form2 = new itemApple();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton240_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemOrange form2 = new itemOrange();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton190_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemSpaghetti form2 = new itemSpaghetti();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton187_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTandouri form2 = new itemTandouri();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton188_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTeriyaki form2 = new itemTeriyaki();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton196_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemOreo form2 = new itemOreo();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton186_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemTaro form2 = new itemTaro();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton211_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemNabati form2 = new itemNabati();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton197_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemCocacola form2 = new itemCocacola();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton195_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemMizone form2 = new itemMizone();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton192_Click(object sender, EventArgs e)
+        {
+            Hide();
+            itemPulpy form2 = new itemPulpy();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
     }
 }

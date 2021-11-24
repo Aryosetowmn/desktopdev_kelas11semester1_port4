@@ -34,7 +34,6 @@ namespace Tioneel
         private void gunaControlBox1_Click(object sender, EventArgs e)
         {
             this.Close();
-            new Dashboard().Show();
         }
 
         private void itemTandouri_Load(object sender, EventArgs e)

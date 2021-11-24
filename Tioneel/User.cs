@@ -42,13 +42,11 @@ namespace Tioneel
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            new Dashboard().Show();
             this.Close();
         }
 
         private void gunaControlBox1_Click(object sender, EventArgs e)
         {
-            new Dashboard().Show();
             this.Close();
         }
     }

@@ -88,7 +88,6 @@ namespace Tioneel
         private void gunaControlBox1_Click_1(object sender, EventArgs e)
         {
             this.Close();
-            new Dashboard().Show();
         }
     }
 }

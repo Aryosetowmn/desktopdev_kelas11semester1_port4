@@ -55,8 +55,14 @@ namespace Tioneel
             txtPassword.Focus();
             if (txtUsername.Text == "admin" && txtPassword.Text == "admin")
             {
-                new Dashboard().Show();
-                this.Hide();
+                txtPassword.Clear();
+                txtUsername.Clear();
+                txtUsername.Focus();
+                Hide();
+                Dashboard form2 = new Dashboard();
+                form2.ShowDialog();
+                form2 = null;
+                Show();
             }
 
             else
@@ -66,7 +72,7 @@ namespace Tioneel
                 MessageBox.Show(message, title);
                 txtPassword.Clear();
                 txtUsername.Clear();
-                txtPassword.Focus();
+                txtUsername.Focus();
             }
         }
 
