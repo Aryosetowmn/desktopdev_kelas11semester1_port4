@@ -16,5 +16,10 @@ namespace Tioneel
         {
             InitializeComponent();
         }
+
+        private void Wishlist_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
