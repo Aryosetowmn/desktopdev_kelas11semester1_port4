@@ -177,8 +177,10 @@ namespace Tioneel
 
         private void gunaButton34_Click(object sender, EventArgs e)
         {
-            this.Close();
-            new Login().Show();   
+            if (MessageBox.Show("Are You Sure Want To Quit?", "Log Out", MessageBoxButtons.YesNo) == DialogResult.Yes) {
+                this.Close();
+                new Login().Show();
+            }   
         }
 
         private void gunaButton56_Click(object sender, EventArgs e)
@@ -368,7 +370,11 @@ namespace Tioneel
 
         private void gunaControlBox1_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("Are You Sure Want To Quit?", "Log Out", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close();
+                new Login().Show();
+            }
         }
 
         private void PnlFood_Paint(object sender, PaintEventArgs e)
@@ -1142,6 +1148,15 @@ namespace Tioneel
             form2.ShowDialog();
             form2 = null;
             Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are You Sure Want To Quit?", "Log Out", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close();
+                new Login().Show();
+            }
         }
     }
 }

@@ -53,7 +53,6 @@ namespace Tioneel
             this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
-            this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
             this.PnlHome = new System.Windows.Forms.Panel();
             this.gunaButton39 = new Guna.UI.WinForms.GunaButton();
@@ -320,6 +319,7 @@ namespace Tioneel
             this.gunaButton252 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton253 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton254 = new Guna.UI.WinForms.GunaButton();
+            this.button1 = new System.Windows.Forms.Button();
             this.gunaGradient2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gunaGradient2Panel2.SuspendLayout();
@@ -753,23 +753,6 @@ namespace Tioneel
             this.gunaGradient2Panel4.Radius = 35;
             this.gunaGradient2Panel4.Size = new System.Drawing.Size(87, 91);
             this.gunaGradient2Panel4.TabIndex = 6;
-            // 
-            // gunaControlBox1
-            // 
-            this.gunaControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaControlBox1.AnimationHoverSpeed = 0.07F;
-            this.gunaControlBox1.AnimationSpeed = 0.03F;
-            this.gunaControlBox1.IconColor = System.Drawing.Color.Black;
-            this.gunaControlBox1.IconSize = 15F;
-            this.gunaControlBox1.Location = new System.Drawing.Point(1518, -1);
-            this.gunaControlBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gunaControlBox1.Name = "gunaControlBox1";
-            this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.Black;
-            this.gunaControlBox1.OnHoverIconColor = System.Drawing.Color.White;
-            this.gunaControlBox1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaControlBox1.Size = new System.Drawing.Size(45, 46);
-            this.gunaControlBox1.TabIndex = 6;
-            this.gunaControlBox1.Click += new System.EventHandler(this.gunaControlBox1_Click);
             // 
             // gunaControlBox2
             // 
@@ -7653,12 +7636,26 @@ namespace Tioneel
             this.gunaButton254.Size = new System.Drawing.Size(253, 217);
             this.gunaButton254.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button1.Location = new System.Drawing.Point(1510, -2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(45, 45);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1575, 900);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.PnlHome);
             this.Controls.Add(this.PnlBtnDrinks);
             this.Controls.Add(this.PnlBtnSnacks);
@@ -7674,7 +7671,6 @@ namespace Tioneel
             this.Controls.Add(this.PnlBtnAllUtensils);
             this.Controls.Add(this.PnlBtnFood);
             this.Controls.Add(this.gunaControlBox2);
-            this.Controls.Add(this.gunaControlBox1);
             this.Controls.Add(this.PnlBtnUtensils);
             this.Controls.Add(this.gunaGradient2Panel3);
             this.Controls.Add(this.gunaGradient2Panel1);
@@ -7717,7 +7713,6 @@ namespace Tioneel
         private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel3;
         private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI.WinForms.GunaControlBox gunaControlBox1;
         private Guna.UI.WinForms.GunaControlBox gunaControlBox2;
         private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel1;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
@@ -8002,5 +7997,6 @@ namespace Tioneel
         private Guna.UI.WinForms.GunaButton gunaButton252;
         private Guna.UI.WinForms.GunaButton gunaButton253;
         private Guna.UI.WinForms.GunaButton gunaButton254;
+        private System.Windows.Forms.Button button1;
     }
 }
