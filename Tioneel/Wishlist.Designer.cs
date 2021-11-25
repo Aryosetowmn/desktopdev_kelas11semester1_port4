@@ -47,6 +47,8 @@ namespace Tioneel
             this.gunaGradient2Panel6 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.gunaButton9 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton10 = new Guna.UI.WinForms.GunaButton();
+            this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
+            this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaGradient2Panel1.SuspendLayout();
             this.gunaGradient2Panel2.SuspendLayout();
             this.gunaGradient2Panel3.SuspendLayout();
@@ -92,7 +94,7 @@ namespace Tioneel
             this.BtnUtensils.OnHoverImage = null;
             this.BtnUtensils.OnPressedColor = System.Drawing.Color.Black;
             this.BtnUtensils.Radius = 15;
-            this.BtnUtensils.Size = new System.Drawing.Size(156, 42);
+            this.BtnUtensils.Size = new System.Drawing.Size(188, 42);
             this.BtnUtensils.TabIndex = 19;
             this.BtnUtensils.Text = "Wishlist";
             // 
@@ -159,7 +161,7 @@ namespace Tioneel
             this.gunaButton2.OnHoverImage = null;
             this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton2.Radius = 15;
-            this.gunaButton2.Size = new System.Drawing.Size(204, 42);
+            this.gunaButton2.Size = new System.Drawing.Size(234, 42);
             this.gunaButton2.TabIndex = 20;
             this.gunaButton2.Text = "Add to cart";
             // 
@@ -453,12 +455,47 @@ namespace Tioneel
             this.gunaButton10.Text = "Teriyaki                                      x3";
             this.gunaButton10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // gunaControlBox2
+            // 
+            this.gunaControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaControlBox2.AnimationHoverSpeed = 0.07F;
+            this.gunaControlBox2.AnimationSpeed = 0.03F;
+            this.gunaControlBox2.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
+            this.gunaControlBox2.IconColor = System.Drawing.Color.Black;
+            this.gunaControlBox2.IconSize = 15F;
+            this.gunaControlBox2.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.gunaControlBox2.Location = new System.Drawing.Point(394, 0);
+            this.gunaControlBox2.Name = "gunaControlBox2";
+            this.gunaControlBox2.OnHoverBackColor = System.Drawing.Color.Black;
+            this.gunaControlBox2.OnHoverIconColor = System.Drawing.Color.White;
+            this.gunaControlBox2.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaControlBox2.Size = new System.Drawing.Size(50, 30);
+            this.gunaControlBox2.TabIndex = 40;
+            // 
+            // gunaControlBox1
+            // 
+            this.gunaControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaControlBox1.AnimationHoverSpeed = 0.07F;
+            this.gunaControlBox1.AnimationSpeed = 0.03F;
+            this.gunaControlBox1.IconColor = System.Drawing.Color.Black;
+            this.gunaControlBox1.IconSize = 15F;
+            this.gunaControlBox1.Location = new System.Drawing.Point(450, 0);
+            this.gunaControlBox1.Name = "gunaControlBox1";
+            this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.Black;
+            this.gunaControlBox1.OnHoverIconColor = System.Drawing.Color.White;
+            this.gunaControlBox1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaControlBox1.Size = new System.Drawing.Size(50, 30);
+            this.gunaControlBox1.TabIndex = 39;
+            this.gunaControlBox1.Click += new System.EventHandler(this.gunaControlBox1_Click);
+            // 
             // Wishlist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(500, 650);
+            this.Controls.Add(this.gunaControlBox2);
+            this.Controls.Add(this.gunaControlBox1);
             this.Controls.Add(this.gunaGradient2Panel6);
             this.Controls.Add(this.gunaButton10);
             this.Controls.Add(this.gunaGradient2Panel5);
@@ -504,5 +541,7 @@ namespace Tioneel
         private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel6;
         private Guna.UI.WinForms.GunaButton gunaButton9;
         private Guna.UI.WinForms.GunaButton gunaButton10;
+        private Guna.UI.WinForms.GunaControlBox gunaControlBox2;
+        private Guna.UI.WinForms.GunaControlBox gunaControlBox1;
     }
 }

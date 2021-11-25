@@ -1125,5 +1125,23 @@ namespace Tioneel
             form2 = null;
             Show();
         }
+
+        private void gunaButton33_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Cart form2 = new Cart();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
+
+        private void gunaButton23_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Wishlist form2 = new Wishlist();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
+        }
     }
 }

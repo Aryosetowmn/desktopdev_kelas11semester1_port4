@@ -539,6 +539,7 @@ namespace Tioneel
             this.gunaButton33.Radius = 30;
             this.gunaButton33.Size = new System.Drawing.Size(84, 78);
             this.gunaButton33.TabIndex = 17;
+            this.gunaButton33.Click += new System.EventHandler(this.gunaButton33_Click);
             // 
             // gunaButton23
             // 
@@ -565,6 +566,7 @@ namespace Tioneel
             this.gunaButton23.Radius = 30;
             this.gunaButton23.Size = new System.Drawing.Size(84, 78);
             this.gunaButton23.TabIndex = 16;
+            this.gunaButton23.Click += new System.EventHandler(this.gunaButton23_Click);
             // 
             // gunaLabel7
             // 
@@ -759,7 +761,7 @@ namespace Tioneel
             this.gunaControlBox1.AnimationSpeed = 0.03F;
             this.gunaControlBox1.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox1.IconSize = 15F;
-            this.gunaControlBox1.Location = new System.Drawing.Point(1507, -1);
+            this.gunaControlBox1.Location = new System.Drawing.Point(1518, -1);
             this.gunaControlBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gunaControlBox1.Name = "gunaControlBox1";
             this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.Black;
@@ -777,7 +779,7 @@ namespace Tioneel
             this.gunaControlBox2.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
             this.gunaControlBox2.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox2.IconSize = 15F;
-            this.gunaControlBox2.Location = new System.Drawing.Point(1456, -1);
+            this.gunaControlBox2.Location = new System.Drawing.Point(1467, -1);
             this.gunaControlBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gunaControlBox2.Name = "gunaControlBox2";
             this.gunaControlBox2.OnHoverBackColor = System.Drawing.Color.Black;
@@ -7656,7 +7658,7 @@ namespace Tioneel
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(1679, 886);
+            this.ClientSize = new System.Drawing.Size(1575, 900);
             this.Controls.Add(this.PnlHome);
             this.Controls.Add(this.PnlBtnDrinks);
             this.Controls.Add(this.PnlBtnSnacks);

@@ -30,11 +30,11 @@ namespace Tioneel
         private void InitializeComponent()
         {
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
+            this.BtnUtensils = new Guna.UI.WinForms.GunaButton();
             this.gunaButton34 = new Guna.UI.WinForms.GunaButton();
             this.gunaGradient2Panel2 = new Guna.UI.WinForms.GunaGradient2Panel();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.BtnUtensils = new Guna.UI.WinForms.GunaButton();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.gunaGradient2Panel6 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.gunaButton9 = new Guna.UI.WinForms.GunaButton();
             this.gunaGradient2Panel5 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -48,6 +48,8 @@ namespace Tioneel
             this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.lbcost = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
+            this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaGradient2Panel1.SuspendLayout();
             this.gunaGradient2Panel2.SuspendLayout();
             this.gunaGradient2Panel6.SuspendLayout();
@@ -70,6 +72,32 @@ namespace Tioneel
             this.gunaGradient2Panel1.Radius = 40;
             this.gunaGradient2Panel1.Size = new System.Drawing.Size(399, 117);
             this.gunaGradient2Panel1.TabIndex = 4;
+            // 
+            // BtnUtensils
+            // 
+            this.BtnUtensils.AnimationHoverSpeed = 0.07F;
+            this.BtnUtensils.AnimationSpeed = 0.03F;
+            this.BtnUtensils.BackColor = System.Drawing.Color.Transparent;
+            this.BtnUtensils.BaseColor = System.Drawing.Color.Transparent;
+            this.BtnUtensils.BorderColor = System.Drawing.Color.Black;
+            this.BtnUtensils.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.BtnUtensils.FocusedColor = System.Drawing.Color.Empty;
+            this.BtnUtensils.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnUtensils.ForeColor = System.Drawing.Color.White;
+            this.BtnUtensils.Image = null;
+            this.BtnUtensils.ImageSize = new System.Drawing.Size(20, 20);
+            this.BtnUtensils.Location = new System.Drawing.Point(162, 53);
+            this.BtnUtensils.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnUtensils.Name = "BtnUtensils";
+            this.BtnUtensils.OnHoverBaseColor = System.Drawing.Color.Gray;
+            this.BtnUtensils.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.BtnUtensils.OnHoverForeColor = System.Drawing.Color.White;
+            this.BtnUtensils.OnHoverImage = null;
+            this.BtnUtensils.OnPressedColor = System.Drawing.Color.Black;
+            this.BtnUtensils.Radius = 15;
+            this.BtnUtensils.Size = new System.Drawing.Size(96, 42);
+            this.BtnUtensils.TabIndex = 19;
+            this.BtnUtensils.Text = "Cart";
             // 
             // gunaButton34
             // 
@@ -112,58 +140,6 @@ namespace Tioneel
             this.gunaGradient2Panel2.Size = new System.Drawing.Size(399, 117);
             this.gunaGradient2Panel2.TabIndex = 19;
             // 
-            // gunaButton1
-            // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaButton1.Image = global::Tioneel.Properties.Resources.on_off_button;
-            this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaButton1.Location = new System.Drawing.Point(101, 855);
-            this.gunaButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Gray;
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Radius = 15;
-            this.gunaButton1.Size = new System.Drawing.Size(51, 50);
-            this.gunaButton1.TabIndex = 18;
-            // 
-            // BtnUtensils
-            // 
-            this.BtnUtensils.AnimationHoverSpeed = 0.07F;
-            this.BtnUtensils.AnimationSpeed = 0.03F;
-            this.BtnUtensils.BackColor = System.Drawing.Color.Transparent;
-            this.BtnUtensils.BaseColor = System.Drawing.Color.Transparent;
-            this.BtnUtensils.BorderColor = System.Drawing.Color.Black;
-            this.BtnUtensils.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.BtnUtensils.FocusedColor = System.Drawing.Color.Empty;
-            this.BtnUtensils.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnUtensils.ForeColor = System.Drawing.Color.White;
-            this.BtnUtensils.Image = null;
-            this.BtnUtensils.ImageSize = new System.Drawing.Size(20, 20);
-            this.BtnUtensils.Location = new System.Drawing.Point(162, 53);
-            this.BtnUtensils.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnUtensils.Name = "BtnUtensils";
-            this.BtnUtensils.OnHoverBaseColor = System.Drawing.Color.Gray;
-            this.BtnUtensils.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.BtnUtensils.OnHoverForeColor = System.Drawing.Color.White;
-            this.BtnUtensils.OnHoverImage = null;
-            this.BtnUtensils.OnPressedColor = System.Drawing.Color.Black;
-            this.BtnUtensils.Radius = 15;
-            this.BtnUtensils.Size = new System.Drawing.Size(96, 42);
-            this.BtnUtensils.TabIndex = 19;
-            this.BtnUtensils.Text = "Cart";
-            // 
             // gunaButton2
             // 
             this.gunaButton2.AnimationHoverSpeed = 0.07F;
@@ -189,6 +165,32 @@ namespace Tioneel
             this.gunaButton2.Size = new System.Drawing.Size(91, 42);
             this.gunaButton2.TabIndex = 20;
             this.gunaButton2.Text = "Pay";
+            // 
+            // gunaButton1
+            // 
+            this.gunaButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaButton1.AnimationSpeed = 0.03F;
+            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.BaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaButton1.Image = global::Tioneel.Properties.Resources.on_off_button;
+            this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton1.ImageSize = new System.Drawing.Size(30, 30);
+            this.gunaButton1.Location = new System.Drawing.Point(101, 855);
+            this.gunaButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gunaButton1.Name = "gunaButton1";
+            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Gray;
+            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton1.OnHoverImage = null;
+            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton1.Radius = 15;
+            this.gunaButton1.Size = new System.Drawing.Size(51, 50);
+            this.gunaButton1.TabIndex = 18;
             // 
             // gunaGradient2Panel6
             // 
@@ -434,7 +436,7 @@ namespace Tioneel
             this.lbcost.Font = new System.Drawing.Font("Calibri", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbcost.Location = new System.Drawing.Point(52, 433);
             this.lbcost.Name = "lbcost";
-            this.lbcost.Size = new System.Drawing.Size(92, 41);
+            this.lbcost.Size = new System.Drawing.Size(88, 40);
             this.lbcost.TabIndex = 36;
             this.lbcost.Text = "COST";
             // 
@@ -444,9 +446,42 @@ namespace Tioneel
             this.label1.Font = new System.Drawing.Font("Calibri", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(363, 433);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 41);
+            this.label1.Size = new System.Drawing.Size(75, 40);
             this.label1.TabIndex = 37;
             this.label1.Text = "$ 56";
+            // 
+            // gunaControlBox2
+            // 
+            this.gunaControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaControlBox2.AnimationHoverSpeed = 0.07F;
+            this.gunaControlBox2.AnimationSpeed = 0.03F;
+            this.gunaControlBox2.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
+            this.gunaControlBox2.IconColor = System.Drawing.Color.Black;
+            this.gunaControlBox2.IconSize = 15F;
+            this.gunaControlBox2.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.gunaControlBox2.Location = new System.Drawing.Point(394, 0);
+            this.gunaControlBox2.Name = "gunaControlBox2";
+            this.gunaControlBox2.OnHoverBackColor = System.Drawing.Color.Black;
+            this.gunaControlBox2.OnHoverIconColor = System.Drawing.Color.White;
+            this.gunaControlBox2.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaControlBox2.Size = new System.Drawing.Size(50, 30);
+            this.gunaControlBox2.TabIndex = 42;
+            // 
+            // gunaControlBox1
+            // 
+            this.gunaControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaControlBox1.AnimationHoverSpeed = 0.07F;
+            this.gunaControlBox1.AnimationSpeed = 0.03F;
+            this.gunaControlBox1.IconColor = System.Drawing.Color.Black;
+            this.gunaControlBox1.IconSize = 15F;
+            this.gunaControlBox1.Location = new System.Drawing.Point(450, 0);
+            this.gunaControlBox1.Name = "gunaControlBox1";
+            this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.Black;
+            this.gunaControlBox1.OnHoverIconColor = System.Drawing.Color.White;
+            this.gunaControlBox1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaControlBox1.Size = new System.Drawing.Size(50, 30);
+            this.gunaControlBox1.TabIndex = 41;
+            this.gunaControlBox1.Click += new System.EventHandler(this.gunaControlBox1_Click);
             // 
             // Cart
             // 
@@ -454,6 +489,8 @@ namespace Tioneel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(500, 650);
+            this.Controls.Add(this.gunaControlBox2);
+            this.Controls.Add(this.gunaControlBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbcost);
             this.Controls.Add(this.gunaGradient2Panel6);
@@ -501,5 +538,7 @@ namespace Tioneel
         private Guna.UI.WinForms.GunaButton gunaButton3;
         private System.Windows.Forms.Label lbcost;
         private System.Windows.Forms.Label label1;
+        private Guna.UI.WinForms.GunaControlBox gunaControlBox2;
+        private Guna.UI.WinForms.GunaControlBox gunaControlBox1;
     }
 }
