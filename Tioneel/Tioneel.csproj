@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>D:\Download\Framework\Bunifu UI WinForms 1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI">
       <HintPath>D:\Downloads\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
@@ -40,6 +43,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,16 +55,262 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Cart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemBallpoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemBallpoint.Designer.cs">
+      <DependentUpon>itemBallpoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemBulb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemBulb.Designer.cs">
+      <DependentUpon>itemBulb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemCocacola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemCocacola.Designer.cs">
+      <DependentUpon>itemCocacola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemCup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemCup.Designer.cs">
+      <DependentUpon>itemCup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemEraser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemEraser.Designer.cs">
+      <DependentUpon>itemEraser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemGrape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemGrape.Designer.cs">
+      <DependentUpon>itemGrape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemApple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemApple.Designer.cs">
+      <DependentUpon>itemApple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemHotwheels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemHotwheels.Designer.cs">
+      <DependentUpon>itemHotwheels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemLego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemLego.Designer.cs">
+      <DependentUpon>itemLego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemMizone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemMizone.Designer.cs">
+      <DependentUpon>itemMizone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemNabati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemNabati.Designer.cs">
+      <DependentUpon>itemNabati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemOrange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemOrange.Designer.cs">
+      <DependentUpon>itemOrange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemOreo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemOreo.Designer.cs">
+      <DependentUpon>itemOreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemPencil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemPencil.Designer.cs">
+      <DependentUpon>itemPencil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemPlate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemPlate.Designer.cs">
+      <DependentUpon>itemPlate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemPulpy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemPulpy.Designer.cs">
+      <DependentUpon>itemPulpy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemSaklar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemSaklar.Designer.cs">
+      <DependentUpon>itemSaklar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemSpaghetti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemSpaghetti.Designer.cs">
+      <DependentUpon>itemSpaghetti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemSpoonfork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemSpoonfork.Designer.cs">
+      <DependentUpon>itemSpoonfork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemT.Designer.cs">
+      <DependentUpon>itemT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemTandouri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemTandouri.Designer.cs">
+      <DependentUpon>itemTandouri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemTaro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemTaro.Designer.cs">
+      <DependentUpon>itemTaro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemTeriyaki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemTeriyaki.Designer.cs">
+      <DependentUpon>itemTeriyaki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemUno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemUno.Designer.cs">
+      <DependentUpon>itemUno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wishlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wishlist.Designer.cs">
+      <DependentUpon>Wishlist.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemBallpoint.resx">
+      <DependentUpon>itemBallpoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemBulb.resx">
+      <DependentUpon>itemBulb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemCocacola.resx">
+      <DependentUpon>itemCocacola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemCup.resx">
+      <DependentUpon>itemCup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemEraser.resx">
+      <DependentUpon>itemEraser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemGrape.resx">
+      <DependentUpon>itemGrape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemApple.resx">
+      <DependentUpon>itemApple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemHotwheels.resx">
+      <DependentUpon>itemHotwheels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemLego.resx">
+      <DependentUpon>itemLego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemMizone.resx">
+      <DependentUpon>itemMizone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemNabati.resx">
+      <DependentUpon>itemNabati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemOrange.resx">
+      <DependentUpon>itemOrange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemOreo.resx">
+      <DependentUpon>itemOreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemPencil.resx">
+      <DependentUpon>itemPencil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemPlate.resx">
+      <DependentUpon>itemPlate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemPulpy.resx">
+      <DependentUpon>itemPulpy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemSaklar.resx">
+      <DependentUpon>itemSaklar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemSpaghetti.resx">
+      <DependentUpon>itemSpaghetti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemSpoonfork.resx">
+      <DependentUpon>itemSpoonfork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemT.resx">
+      <DependentUpon>itemT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemTandouri.resx">
+      <DependentUpon>itemTandouri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemTaro.resx">
+      <DependentUpon>itemTaro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemTeriyaki.resx">
+      <DependentUpon>itemTeriyaki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemUno.resx">
+      <DependentUpon>itemUno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -70,7 +320,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wishlist.resx">
+      <DependentUpon>Wishlist.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -83,6 +340,49 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tioneellogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tioneelwht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
+    <None Include="Resources\passion.png" />
+    <None Include="Resources\heart.png" />
+    <None Include="Resources\love.png" />
+    <None Include="Resources\on-off-button.png" />
+    <Content Include="Resources\PhotoAsset\anggur.png" />
+    <Content Include="Resources\PhotoAsset\apel.png" />
+    <Content Include="Resources\PhotoAsset\bolpoin.png" />
+    <Content Include="Resources\PhotoAsset\cangkir.png" />
+    <Content Include="Resources\PhotoAsset\cola.png" />
+    <Content Include="Resources\PhotoAsset\colokan.png" />
+    <Content Include="Resources\PhotoAsset\hw.png" />
+    <Content Include="Resources\PhotoAsset\jeruk.png" />
+    <Content Include="Resources\PhotoAsset\lampu.png" />
+    <Content Include="Resources\PhotoAsset\mc.png" />
+    <Content Include="Resources\PhotoAsset\mizone.png" />
+    <Content Include="Resources\PhotoAsset\nabati.png" />
+    <Content Include="Resources\PhotoAsset\oreo.png" />
+    <Content Include="Resources\PhotoAsset\penghapus.png" />
+    <Content Include="Resources\PhotoAsset\pensil.png" />
+    <Content Include="Resources\PhotoAsset\piring.png" />
+    <Content Include="Resources\PhotoAsset\pulpy.png" />
+    <Content Include="Resources\PhotoAsset\segar.png" />
+    <Content Include="Resources\PhotoAsset\spaghetti.png" />
+    <Content Include="Resources\PhotoAsset\t.png" />
+    <Content Include="Resources\PhotoAsset\tandouri.png" />
+    <Content Include="Resources\PhotoAsset\taro.png" />
+    <Content Include="Resources\PhotoAsset\teriyaki.png" />
+    <Content Include="Resources\PhotoAsset\uno.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
