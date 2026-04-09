@@ -1,6 +1,6 @@
-# Tioneel Market App (C# WinForms) - Desktop Educational Project
+# Tioneel Market App (C# WinForms)
 
-Built in 11th grade (Semester 1) | **Tioneel** is a desktop “market app” team project made with **C# WinForms (.NET Framework)**. This project helps me practice desktop UI, multi-form navigation, and basic app flow such as login, browsing items, viewing item details, profile page, and cart.
+Nov 25, 2021 | **Tioneel** is a desktop “market app” team project made with **C# WinForms (.NET Framework)**. This project helps me practice desktop UI, multi-form navigation, and basic app flow such as login, browsing items, viewing item details, profile page, and cart.
 
 ---
 
